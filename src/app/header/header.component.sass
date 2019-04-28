@@ -6,21 +6,35 @@ a
 header
     display: flex
     align-items: center
-    padding: 30px    
+    padding: 1.5%    
 
     nav
         display: flex
-        justify-content: center
+        justify-content: space-around
         align-items: center
         width: 100%
         font-size: 14pt
 
         .sauron
-            font-size: 25pt
+            border-bottom: 2px solid $red-color
+            font-size: 28pt
             font-weight: bold
 
         ul
             display: flex
+            justify-content: center
+            align-items: center
 
             li
-                padding-left: 7em
+                margin: 0 10%
+            
+            li:first-child
+                margin-left: 0
+                
+                a
+                    color: $red-color
+                    padding-bottom: 10px
+                    border-bottom: 2px solid $red-color
+
+            li:last-child
+                margin-right: 0
