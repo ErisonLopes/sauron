@@ -4,6 +4,7 @@
     .sauron
         width: 500px
         margin: 10% 0 0 14%
+
         p
             font-size: 36pt
 
@@ -19,7 +20,7 @@
         align-items: center
         margin-top: 60px
         background-color: $dark
-        
+
         .step
             width: 16vw
             height: 20vh
@@ -29,4 +30,30 @@
                 color: $red-color
 
             p
-                font-size: 16pt        
+                font-size: 16pt    
+
+        .diagonal-line-one
+            border: none
+            border-top: 1px solid $line-color
+            content: ""
+            position: absolute
+            width: 100%
+            transform: rotate(-45deg)
+            transform-origin: 8% 80%
+        
+        .diagonal-line-two
+            border: none
+            border-top: 1px solid $line-color
+            content: ""
+            position: absolute
+            width: 100%
+            transform: rotate(-47deg)
+            transform-origin: 100% 80%
+            top: -26em
+            // transform: rotate(-47deg)
+            // transform-origin: 41% 80%
+
+    .teste 
+        width: 100%
+        height: 500px
+
